@@ -14,7 +14,7 @@ const examplePromise = (age) => {
             }, 2000);
         } else {
             setTimeout(() => {
-                resolve("You can't vote for this polling!");
+                reject("You can't vote for this polling!");
             }, 2000);
         }
     });
